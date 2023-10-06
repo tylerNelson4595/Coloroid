@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Coloroid</title>
+    <script src="coloroid.js"></script>
+    <link rel='stylesheet' type='text/css' href='coloroid.css'/>
+  </head>
+  <body>
+    <center>
+      <h1>Coloroid</h1>
+      <form method="GET" action="">
+        <select name="gridSize">
+        <option value="4">4x4</option>
+        <option value="6">6x6</option>
+        <option value="8">8x8</option>
+        <option value="12">12x12</option>
+        </select>
+        <input type="submit" value="Start">
+      </form>
+      <br>
+      <div class="board" id="control_board">
+        <button class="control c0" onClick = "onClick(0)"></button>
+        <button class="control c1" onClick = "onClick(1)"></button>
+        <button class="control c2" onClick = "onClick(2)"></button>
+        <button class="control c3" onClick = "onClick(3)"></button>
+        <button class="control c4" onClick = "onClick(4)"></button>
+        <button class="control c5" onClick = "onClick(5)"></button>
+      </div>
+      <br>
+      <div id="canvas" style="position:relative;">
+      </div>
+      <p style="font-size:120%;">
+        Clicks Remaining
+      <div id="clicksRemaining" style="font-size:200%"></div>
+    </center>
+    <script>
+      drawGrid();
+    </script>
+  </body>
+</html>

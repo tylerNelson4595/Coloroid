@@ -1,0 +1,119 @@
+body {
+    background-color: #202020;
+    font-family: "Sansation", sansation,  sans-serif;
+    color: white;
+    padding-top: 25px;
+}
+form {
+    font-size: 120%;
+}
+.control {
+    height: 40px;
+    width: 75px;
+}
+button:hover {
+    box-shadow: 0 3px black;
+    top: 1px;
+}
+button:active {
+    box-shadow: 0 0 black;
+    top: 4px;
+}
+.button {
+    width: 40px;
+    height: 40px;
+}
+.c0 {
+    background-color: #FFA778;
+}
+.c1 {
+    background-color: #3BB9FF;
+}
+.c2 {
+    background-color: #4E387E;
+}
+.c3 {
+    background-color: #ffff99;
+}
+.c4 {
+    background-color: #4AA02C;
+}
+.c5 {
+    background-color: #CA226B;
+}
+.control.c0 {
+    box-shadow: 0 3px #F57546;
+}
+.control.c1 {
+    box-shadow: 0 3px #1589FF;
+}
+.control.c2 {
+    box-shadow: 0 3px #461B7E;
+}
+.control.c3 {
+    box-shadow: 0 3px #D8D861;
+}
+.control.c4 {
+    box-shadow: 0 3px #347C2C;
+}
+.control.c5 {
+    box-shadow: 0 3px #C01861;
+}
+.control.c0:hover {
+    box-shadow: 0 2px #F57546;
+}
+.control.c1:hover {
+    box-shadow: 0 2px #1589FF;
+}
+.control.c2:hover {
+    box-shadow: 0 2px #461B7E;
+}
+.control.c3:hover {
+    box-shadow: 0 2px #D8D861;
+}
+.control.c4:hover {
+    box-shadow: 0 2px #347C2C;
+}
+.control.c5:hover {
+    box-shadow: 0 2px #C01861;
+}
+.control.c0:active {
+    box-shadow: 0 0 #F57546;
+}
+.control.c1:active {
+    box-shadow: 0 0 #1589FF;
+}
+.control.c2:active {
+    box-shadow: 0 0 #461B7E;
+}
+.control.c3:active {
+    box-shadow: 0 0 #D8D861;
+}
+.control.c4:active {
+    box-shadow: 0 0 #347C2C;
+}
+.control.c5:active {
+    box-shadow: 0 0 #C01861;
+}
+#control_board {
+  width: 85%;
+  min-width: 400px;
+  max-width: 800px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-around;
+  align-items: center;
+  margin: 10px auto;
+  font-size: 32pt;
+}
+button {
+    border: none;
+    cursor: pointer;
+    border-radius: 130px;
+    letter-spacing: 1px;
+    outline: none;
+    position: relative;
+}
